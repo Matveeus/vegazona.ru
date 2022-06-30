@@ -1,0 +1,55 @@
+.error-title {
+    color: #000;
+   font-family: "Raleway";
+   font-style: normal;
+   font-weight: 600;
+   font-size: 70px;
+   text-shadow: 5px 5px 0px #ffc530;
+   transition: 0.1s;
+   text-align: center;
+}
+
+.error-title:hover {
+   text-shadow: -5px -5px 0px #346a2b;
+}
+
+.error-info {
+   color: #000;
+   margin: 0 auto;
+   max-width: 600px;
+   font-family: "Raleway";
+   font-style: normal;
+   font-weight: 600;
+   font-size: 37px;
+   text-align: center;
+}
+
+.error-button-section {
+   display: flex;
+   margin: 0 auto;
+   margin-top: 40px;
+   margin-bottom: 40px;
+}
+
+.error-button {
+   padding: 0;
+   cursor: pointer;
+   margin: 0 auto;
+   width: 180px;
+   height: 50px;
+   background: #346a2b;
+   border-radius: 10px;
+   border: none;
+   font-family: "Amatic_SC";
+   font-style: normal;
+   font-weight: bold;
+   font-size: 32px;
+   color: #fff;
+ 
+}
+.error-button:hover {
+ 
+   background: #15410E;
+
+ 
+}

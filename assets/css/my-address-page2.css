@@ -1,0 +1,169 @@
+/* длина строки в адресе по умолчанию */
+.private-area_my-primary-address {
+    width: 100%;
+}
+
+/* паддинг для блоков со строками */
+.address-right-side, .my-secondary-address {
+    padding-right: 115px;
+}
+
+/* флекс бокс в строке */
+.my-address-field {
+    margin-bottom: 20px;
+    display: flex;
+    padding-left: 10px;
+    padding-right: 20px;
+    max-width: 1000px;
+    background: #fff;
+    height: 45px;
+    border-bottom: 1px solid #000;
+}
+
+
+/* Заголовок адрес по умолчанию*/
+.primary-address-title {
+    margin-bottom: 20px;
+    margin-top: 40px;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.my-secondary-address{
+    margin-left: 285px;
+}
+
+.my-address_add-new {
+    border-radius: 4px;
+    margin-top: 50px;
+    margin-bottom: 148px;
+    width: 140px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.secondary-address-block + .add-new-address .my-address_add-new{
+    margin-bottom: 36px;
+}
+
+.my-address_add-new:hover {
+    background: #15410E; 
+}
+
+.address_primary_icon {
+    margin: auto 0;
+    background: url('../image/My account/Address/primary_icon.svg');
+    width: 27px;
+    height: 26px;
+    border: none;
+    outline: none;
+}
+
+.address_not-primary_icon {
+    cursor: pointer;
+    margin: auto 0;
+    background: url('../image/My account/Address/not(primary)_icon.svg');
+    width: 26px;
+    height: 26px;
+}
+
+.address_not-primary_icon:hover {
+    background: url('../image/My account/Address/primary_icon.svg');
+}
+
+.woocommerce-account .address-book .wc-address-book-meta {
+    display: flex;
+}
+
+.address-meta-end {
+    margin-left: auto;
+}
+
+.name-of-place_address {
+    max-width:120px;
+    width:100%;
+    overflow: hidden;
+    white-space: nowrap;
+    margin: auto 0;
+    margin-left: 15px;
+    font-style: normal;
+    font-weight: 500;
+    text-overflow: ellipsis;
+    font-size: 24px;
+}
+
+.full-address_in-field {
+  
+    max-width: 750px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    margin: auto 0;
+    margin-left: 30px;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 18px;
+}
+
+.change-address_button {
+    margin: auto 0;
+    margin-left: auto;
+    cursor: pointer;
+    background: url('../image/My account/Address/change_address_icon.svg');
+    width: 20px;
+    height: 21px;
+}
+
+.delete-address_button {
+    margin: auto 0;
+    margin-left: 25px;
+    cursor: pointer;
+    background: url('../image/My account/Address/detete-address_grey.svg');
+    width: 18px;
+    height: 18px;
+    transition: 0.2s linear;
+}
+
+
+.delete-address_button:hover {
+    background: url('../image/My account/Address/delete-address_red.svg');
+}
+
+.secondary-address-block {
+    width: 100%;
+    position: relative;
+    top: -47px;
+}
+
+.secondary-address-title {
+    margin-bottom: 20px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.address-line {
+    display: flex;
+    max-width: 877px;
+    width: 100%;
+}
+
+.woo-success-address {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0;
+    height: auto;
+}
+
+.limit-address-book-message{
+    width: 100%;
+    text-align:center;
+    display: inline-block;
+    color: #000;
+}
+
+.woocommerce-edit-address .woocommerce-error{
+    text-align: center;
+}

@@ -1,0 +1,60 @@
+@media(max-width:1300px){
+    .tinv-wishlist .product-remove button{
+        margin:0;
+    }
+    .product-remove, .product-thumbnail, .product-price, .product-stock, .product-action, .product-name{
+        border:none;
+    }
+    .product-thumbnail-block, .tinv-wishlist .product-thumbnail{
+        margin: 0 auto;
+        width: 120px;
+    }
+    .tinvwl-table-manage-list thead{
+        display:none;
+    }
+    .tinvwl-table-manage-list tbody{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .wishlist_item {
+        box-shadow: 6px 6px 12px rgb(0 0 0 / 25%);
+        display: flex;
+        height: 300px;
+        width: 230px;
+        flex-direction: column;
+        margin-bottom: 20px;
+        padding: 7px;
+        justify-content: space-between;
+}
+    .tinv-wishlist table td, .tinv-wishlist table th{
+        display:flex;
+    }
+    .tinv-wishlist .tinvwl-table-manage-list .product-remove{
+        display:flex;
+        justify-content:flex-end;
+        padding:0;
+        width:100%;
+        
+    }
+    .wishlist_item .product-name a{
+        width:100%;
+    }
+    .tinv-wishlist table td.product-name{
+        text-align:center;
+    }
+   .product-action.table-cell-middle{
+       margin:0 auto;
+       padding:0;
+       width:80%;
+   }
+   .product-thumbnail product-thumbnail-block{
+       margin:0 auto;
+   }
+}
+
+@media(max-width:1110px){
+    .wishlist_item{
+        width:26vw;
+    }
+}

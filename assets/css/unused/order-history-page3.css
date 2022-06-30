@@ -1,0 +1,110 @@
+.order-history_info-card_block {
+    
+    width: 1125px;
+    max-width: 1125px;
+    margin-bottom: 100px;
+}
+
+.order-history_info-card {
+    margin-bottom: 50px;
+    margin-right: 8px;
+    display: inline-block;
+   padding-top: 15px;
+   width: 270px;
+   height: 330px;
+   background: #fff;
+   box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.25);
+}
+
+.order-history_info-card-title {
+    margin: 0;
+    text-align: center;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.icon-for_order-history-card {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+
+.icon-for_order-history-card_vagon {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.order-history-card_status {
+    margin-top: 20px;
+    margin-bottom: 18px;
+    text-align: center;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+
+.order-history-card_status-yellow {
+    color:#C3840A;
+    
+}
+
+.order-history-card_status-green {
+    color:#346A2B;
+    
+}
+
+.order-history-card_status-red {
+    color:#9F0A0A;
+    
+}
+
+
+
+
+.order-history-card-price_block {
+    width: 235px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.order-history-card_overall {
+    margin: 0;
+    
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+}
+
+.order-histoty-card_price {
+    margin: 0;
+    
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.order-histoty-card_all-info_button {
+    cursor: pointer;
+    margin-top: 17px;
+    border: none;
+    outline: none;
+    width: 270px;
+    background: #346A2B;
+    height: 45px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: #fff;
+}
+
+.order-histoty-card_all-info_button:hover {
+    background: #15410E;
+}

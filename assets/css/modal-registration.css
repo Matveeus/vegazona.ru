@@ -1,0 +1,176 @@
+.modal-window {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    background: rgba(0, 0, 0, 0.35);
+}
+
+.modal-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-registration {
+    position: relative;
+    z-index: 101;
+    max-width: 910px;
+    width: 100%;
+    border-radius: 12px;
+    background: linear-gradient(180deg, #FFFFFF 0%, #E9E9E9 100%);
+    padding: 26px 53px 26px 47px;
+}
+
+
+
+.modal-registration-close {
+    width: 18px;
+    height: 18px;
+    display: block;
+    background: url('../image/General/x-sign(inactive).svg') no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    cursor: pointer;
+    transition: .3s linear;
+}
+
+.modal-registration-close:hover{
+    background: url('../image/General/x-sign(active).svg');
+    background-size: cover;
+}
+
+.modal-inner-block {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.modal-login-select-headers{
+    display: none;
+}
+
+.modal-login-block{
+    position: relative;
+    flex-basis: 50%;
+    height: auto;
+    border-right: solid 1px #000 ;
+    padding-right: 50px;
+}
+
+.modal-login-title {
+    margin: 0;
+    margin-bottom: 33px;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 100%;
+    text-align: center;
+    color: #000000;
+}
+
+.modal-input {
+    font-weight: 600;
+    font-size: 18px;
+    width: 100%;
+    border-bottom: solid 1px #000;
+    background: rgba(0, 0, 0, 0);
+    -webkit-border-radius: 0;
+}
+
+.login-btn-and-memory-block {
+    margin-top: 37px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.input-login-submit {
+    border-radius: 4px;
+    width: 140px;
+    height: 45px;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+}
+
+.memory-span {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+}
+
+.modal-register-block{
+    flex-basis: 50%;
+    height: 100%;
+    padding-left: 50px;
+}
+
+.modal-input-mt {
+    margin-top: 27px;
+}
+
+.accepting-block {
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
+.terms-of-use-block {
+    margin-bottom: 15px;
+}
+
+.private-privacy-block {
+    margin-bottom: 20px;
+}
+
+.accept-span{
+    padding-left: 28px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 100%;
+    color: #000000;
+}
+
+.accept-link{
+    text-decoration: underline;
+    color: #346A2B;
+    text-decoration-skip-ink: none;
+}
+
+
+.lost-password-link {
+    font-size: 18px;
+    line-height: 21px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.lost-pass-parag {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.modal-registration .woocommerce-error {
+    margin-bottom: 12px;
+    text-align: center;
+    width: 100%;
+    position: relative;
+    top: -5px;
+}
+
+.modal-registration .woocommerce-error li strong {
+    display: none;
+    list-style-type: none;
+}
+
+.red-text {
+    color: #FF0000;
+}
+

@@ -1,0 +1,12 @@
+@media(max-width:1024px){
+    .error-title{
+        font-size:50px;
+    }
+    .error-info{
+        font-size:26px;
+    }
+    .error-button{
+        width: 150px;
+        font-size: 28px;
+    }
+}

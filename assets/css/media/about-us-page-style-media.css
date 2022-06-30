@@ -1,0 +1,149 @@
+@media (max-width:1024px){
+    .about-us-contacts-phones{
+       
+        height: 35px;
+    }
+    .about-us-contacts-social{
+       
+        height: 35px;
+    }
+    .about-us-contacts-emails{
+      
+        height: 70px;
+    }
+    .about-us-email-link:not(:last-child){
+        margin-bottom:5px;
+    }
+    .about-us-info{
+        font-size:18px;
+    }
+    .about-us-contacts{
+        font-size:18px;
+    }
+
+    .about-us-address{
+        margin-bottom:10px;
+
+    }
+}
+
+@media (max-width:710px){
+   
+    .about-us-contacts-phones{
+        width:100%;
+        
+    }
+    .about-us-contacts-social{
+        width:100%;
+       
+    }
+    .about-us-contacts-emails{
+        width:100%;
+       
+    }
+    .about-us-contacts-office{
+        width:100%;
+    }
+    
+}
+
+@media (max-width:750px){
+    .about-us-contacts-phones,.about-us-contacts-social,.about-us-contacts-emails {
+   padding:0;
+}
+    .about-us-instagram, .about-us-facebook {
+    
+    margin-left:30px;
+}
+.inst-block,.facebook-block{
+    width:auto;
+}
+.about-us-contacts-office{
+    padding:0;
+}
+}
+@media (max-width:600px){
+.green-text-about-us{
+    text-align:center;
+}
+.about-us-contacts-phones{
+        padding-bottom:15px;
+        text-align: center;
+        flex-direction: column;
+        height:70px;
+}
+.about-us-phones-block{
+    width:82%;
+    margin:0 auto;
+}
+.about-us-contacts-social{
+    padding-bottom:15px;
+   height:70px;
+   margin:0 auto;
+   margin-bottom:15px;
+   
+}
+    .about-us-instagram, .about-us-facebook {
+   text-align:center;
+    margin-left:0;
+}
+.inst-block,.facebook-block{
+     flex-direction: column;
+    margin:0 auto;
+    width: 55%;
+}
+
+.about-us-contacts-emails {
+    height:100px;
+    margin:0 auto;
+     margin-bottom:15px;
+   flex-direction: column;
+}
+.about-us-email-for::before{
+    content:none;
+}
+.block-for-and-links{
+    margin:0 auto;
+}
+.about-us-contacts-office{
+    height:80px;
+     flex-direction: column;
+}
+.address-and-work-hours{
+    margin:0 auto;
+}
+.about-us-address{
+    text-align:center;
+}
+.about-us-work-hours{
+    text-align:center;
+}
+
+}
+@media (max-width:470px){
+    .about-us-phones-block{
+    width:100%;
+    
+}
+.inst-block,.facebook-block{
+    
+    margin:0;
+   
+}
+.block-for-and-links{
+    margin:0;
+     width:100%;
+}
+    .inst-block,.facebook-block{
+     
+    width:auto;
+}
+}
+@media (max-width:370px){
+    .about-us-info{
+        font-size:15px;
+    }
+    .about-us-contacts{
+        font-size:15px;
+    }
+}

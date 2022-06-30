@@ -1,0 +1,156 @@
+.private-area_pages {
+    display: flex;
+    margin-top: 80px;
+}
+
+.profile-nav {
+    width: 250px;
+    
+}
+
+.profile-nav-pages:not(:last-child) {
+    border-bottom: 1px solid #9F9D9D;
+    margin-bottom: 5px;
+    
+}
+
+.profile-nav-pages {
+    padding-top: 10px;
+    width: 250px;
+    height: 40px;
+    
+    padding-left: 5px;
+    margin-bottom: 115px;
+    
+}
+
+.profile-nav-pages:hover:not(:last-child) {
+    
+    border-bottom: 1px solid #000;
+   
+}
+
+
+
+.profile-nav-pages_text {
+ font-family: 'Raleway';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+color: #000;
+display: flex;
+align-items: center;
+text-align: center;
+text-decoration: none;
+
+}
+
+
+
+.profile-nav-svgs {
+    margin-right:15px;
+}
+
+.private-area_right-side {
+    margin-left: 35px;
+    
+
+    
+}
+
+.bonus_discount_block {
+    width: 580px;
+    border-right: 1px #C2C3C7 solid;
+    margin-bottom: 150px;
+}
+
+.private-area_head {
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-family: 'Raleway';
+    font-weight: 600;
+    font-size: 36px;
+    font-style: normal;
+    
+}
+
+.bonus_discount-point_section {
+    width: 1125px;
+    display: flex;
+}
+
+.bonus_card-whole-img {
+    width: 370px;
+}
+
+.card_bonus_img {
+    position: absolute;
+}
+
+.bonus_usernumber_block {
+    height: auto;
+    width: 110px;
+    display: flex;
+    padding-top: 137px;
+    padding-left: 35px;
+    position: relative;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #36404D;
+   
+}
+
+
+
+.bonus_how-many-to-spand {
+    padding: 20px 20px 20px 20px;
+    width: 384px;
+    text-align: center;
+    margin-left: 5px;
+    margin-top: 85px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    border: 1px #C2C3C7 solid;
+}
+
+.bonus_vegapoints_section {
+    margin-left: 50px;
+    margin-top: 60px;
+}
+
+.bonus_points_block {
+    display: flex;
+    
+    
+    width: 475px;
+    height: 48px;
+}
+
+.bonus_point_title {
+    margin: 0;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+}
+
+.bonus_number-of-vegapoints {
+    margin: 0;
+    margin-left: 40px;
+    margin-right: 20px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px; 
+}
+
+.bonus_vegapoints_info {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+}

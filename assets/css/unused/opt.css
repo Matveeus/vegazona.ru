@@ -1,0 +1,140 @@
+.green-text__opt {
+    color: #346A2B;
+    font-weight: 700;
+    font-family: 'Raleway';
+    font-size: 24px;
+    font-style: normal;
+    
+}
+
+.opt__head {
+    color: #000;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    font-family: 'Raleway';
+    font-weight: 600;
+    font-size: 36px;
+    font-style: normal;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+.opt__section {
+    width: 920px;
+    margin: 0 auto;
+}   
+
+.opt_description {
+    color: #000;
+    text-align: center;
+    width: 920px;
+    margin-bottom: 20px;
+    font-family: 'Raleway';
+    font-weight: 500;
+    font-size: 24px;
+    font-style: normal;
+    height: 200px;
+    border-bottom: solid 1px #000;
+}
+
+.opt_description__second-part {
+    color: #000;
+    text-align: center;
+    width: 920px;
+    margin-bottom: 50px;
+    font-family: 'Raleway';
+    font-weight: 500;
+    font-size: 24px;
+    font-style: normal; 
+}
+
+.opt_form_title {
+    color: #000;
+    text-align: center;
+    width: 920px;
+    margin-bottom: 30px;
+    font-family: 'Raleway';
+    font-weight: 500;
+    font-size: 48px;
+    font-style: normal; 
+}
+
+.opt_form {
+    margin: 0 auto;
+    width: 600px;
+}
+
+.opt_name-of-field {
+    color: #000;
+    margin: 0;
+    margin-bottom: 10px;
+    width: 600px;
+    font-family: 'Raleway';
+    font-weight: 600;
+    font-size: 18px;
+    font-style: normal; 
+}
+
+.opt_form_three-boxs {
+    color: #000;
+    padding-left: 20px;
+    width: 600px;
+    height: 50px;
+    font-family: 'Raleway';
+    font-weight: 600;
+    font-size: 18px;
+    font-style: normal; 
+    margin-bottom: 15px;
+}
+
+.opt_form_box-text {
+    color: #000;
+    font-family: 'Raleway';
+    font-weight: 600;
+    font-size: 18px;
+    font-style: normal; 
+}
+
+.opt_form_massege-box {
+    color: #000;
+    padding-left: 20px;
+    max-width: 600px;
+    width: 600px;
+    height: 110px;
+    font-family: 'Raleway';
+    font-weight: 600;
+    font-size: 18px;
+    font-style: normal; 
+    margin-bottom: 35px;
+}
+
+.opt_button-section {
+    margin: 0 auto;
+    width: 600px;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 50px;
+}
+
+#opt_form_submit_button {
+    padding: 0;
+    
+    cursor: pointer;
+    width: 150px;
+    height: 50px;
+    background: #346A2B;
+    border: 3px solid #346A2B;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-family: "Amatic_SC";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 33px;
+    color: #FFFFFF;
+    letter-spacing: 0.01em;
+}
+
+input, 
+input:active, 
+input:focus { outline: none; }

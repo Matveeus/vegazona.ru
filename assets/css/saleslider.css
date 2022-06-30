@@ -1,0 +1,87 @@
+.wrapper{
+	display: flex;
+	justify-content:center;
+	align-items: center;
+	max-width: 1340px;
+	margin: 0 auto;
+}
+
+@media (max-width:767px){
+	.wrapper{padding: 50px 10px;}
+}
+
+/* Слайдер */
+.slick-slider{
+	min-width: 0;
+}
+/* Ограничивающая оболочка */
+.slick-list {
+	overflow: hidden;
+}
+/* Лента слайдов */
+.slick-track{
+	display: flex;
+	align-items: flex-start;
+}
+
+/* Конкретный слайдер */
+.slider {
+	position: relative;
+	padding: 0px 60px;
+}
+
+@media (max-width:767px){
+	.slider {
+		padding: 0px 40px;
+	}
+}
+
+.slider .slick-arrow{
+	position: absolute;
+	top: 39%;
+	z-index: 10;
+	font-size: 0;
+	width: 30px;
+    height: 65px;
+    outline: none;
+    cursor: pointer;
+}
+.slider .slick-arrow.slick-prev{
+	left: 0;
+	background: url('../image/Product slider/arrow-left.svg') 0 0 / 100% no-repeat;
+}
+.slider .slick-arrow.slick-next{
+	right: 0;
+	background: url('../image/Product slider/arrow-right.svg') 0 0 / 100% no-repeat;
+}
+.slider .slick-arrow.slick-disabled{
+	opacity: 0.2;
+}
+
+.container .wrapper .slider .slick-list {
+    width: 100%;
+}
+
+.slick-list li {
+	padding: 0 20px;
+	position: relative;
+}
+
+.slick-list{
+	list-style: none;
+	padding-bottom: 23px;
+	padding-top: 10px;
+}
+
+.item-buy-block .buy-button{
+	display: block;
+}
+
+.box-shadow-item{
+	box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.25);
+	background: #fff;
+}
+
+li.product .box-shadow-item .button {
+	display: block;
+}

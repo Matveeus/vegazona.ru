@@ -1,0 +1,293 @@
+.tinv-wishlist .tinvwl_add_to_wishlist_button.tinvwl-icon-heart.tinvwl-product-in-list:before {
+    content:url('../image/Wishlist/heart-active.svg');
+}
+
+.tinv-wishlist .tinvwl_add_to_wishlist_button.tinvwl-icon-heart:before,.woocommerce ul.products li.product a.tinvwl-button.tinvwl_add_to_wishlist_button.tinvwl-icon-heart:before,.woocommerce-page ul.products li.product a.tinvwl-button.tinvwl-icon-heart.tinvwl_add_to_wishlist_button:before,a.wishlist_products_counter.top_wishlist-heart:before,span.wishlist_products_counter.top_wishlist-heart:before,a.sidr-class-wishlist_products_counter.sidr-class-top_wishlist-heart:before {
+    content: url('../image/Wishlist/heart-inactive.svg');
+}
+
+.tinv-wishlist .tinvwl_add_to_wishlist_button.tinvwl-icon-heart-plus.tinvwl-product-in-list:before,.woocommerce ul.products li.product a.tinvwl-button.tinvwl_add_to_wishlist_button.tinvwl-icon-heart-plus.tinvwl-product-in-list:before,.woocommerce-page ul.products li.product a.tinvwl-button.tinvwl-icon-heart-plus.tinvwl_add_to_wishlist_button.tinvwl-product-in-list:before,a.wishlist_products_counter.top_wishlist-heart-plus.wishlist-counter-with-products:before,span.wishlist_products_counter.top_wishlist-heart-plus.wishlist-counter-with-products:before {
+    content:url('../image/Wishlist/heart-active.svg');
+}
+
+.tinv-wishlist .tinvwl_add_to_wishlist_button.tinvwl-icon-heart-plus:before,.woocommerce ul.products li.product a.tinvwl-button.tinvwl_add_to_wishlist_button.tinvwl-icon-heart-plus:before,.woocommerce-page ul.products li.product a.tinvwl-button.tinvwl_add_to_wishlist_button.tinvwl-icon-heart-plus:before,a.wishlist_products_counter.top_wishlist-heart-plus:before,span.wishlist_products_counter.top_wishlist-heart-plus:before,a.sidr-class-wishlist_products_counter.sidr-class-top_wishlist-heart-plus:before {
+    content: url('../image/Wishlist/heart-inactive.svg');
+}
+
+/* Позиционирование сердца на карточке товара */
+.tinv-wishlist .tinvwl_add_to_wishlist_button.tinvwl-icon-heart-plus.no-txt:before, .tinv-wishlist .tinvwl_add_to_wishlist_button.tinvwl-icon-heart.no-txt:before{
+    margin: 0;
+    top: 0;
+    left: 0;
+    height: inherit;
+    width: inherit;
+}
+
+.add-to-wishlist-button{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 10;
+}
+
+/* Позиционирование сердца на карточке товара (в слайдере) */
+.slick-track .add-to-wishlist-button{
+    right: 30px;
+}
+
+ul.products li.product .tinvwl_add_to_wishlist_button{
+    margin-top: 0;
+}
+
+/* Позиционирование сердца в модальном окне */
+.tinv-wishlist.tinvwl-after-add-to-cart .tinvwl_add_to_wishlist_button{
+    margin-top: 0;
+}
+
+/* Центрирование столбца "Статус склада" на странице Избранное */
+.product-stock p{
+    margin: 0 auto;
+}
+
+/* Высота строк списка желаний*/
+.tinv-wishlist table td, .tinv-wishlist table th{
+    padding: 0;
+}
+
+.wishlist_item {
+    height: 100px;
+}
+
+/* Центрирование столбца с кнопкой "В корзину" в списке желаний */
+.product-action.table-cell-middle{
+    padding: 0 10px;
+}
+
+/* Центрирование столбца с "Крестиком" в списке желаний */
+.tinv-wishlist .tinvwl-table-manage-list .product-remove{
+    padding: 0 20px;
+}
+
+/* Всплывающее окно при добавлении/удалении товара в избранное */
+.tinv-wishlist .tinv-modal .tinv-modal-inner{
+    position:relative;
+    margin:0 auto;
+    background: linear-gradient(180deg, #FFFFFF 0%, #E9E9E9 100%);
+    max-width:360px;
+    padding:40px;
+    border-radius:13px;
+}
+
+/* Текст всплывающего окна при добавлении/удалении товара в избранное */
+.tinv-wishlist .tinvwl_added_to_wishlist .tinv-txt{
+    font-family: 'Raleway';
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom:25px
+}
+
+/* Кнопки во всплывающем окне при добавлении/удалении товара в избранное */
+.woocommerce .tinv-wishlist .tinvwl_added_to_wishlist.tinv-modal button.button, .tinv-modal .tinv-table .tinv-cell .tinv-modal-inner .tinvwl-buttons-group button.button{
+    width:180px;
+    height: 45px;
+    position: relative;
+    border-radius: 10px;
+    font-family: 'Amatic_SC';
+    font-size: 30px;
+    font-weight: 400;
+    margin-top:15px;
+    margin-bottom: 10px;
+}
+
+.woocommerce .tinv-wishlist .tinvwl_added_to_wishlist.tinv-modal button.tinvwl_button_view, .tinv-modal .tinv-table .tinv-cell .tinv-modal-inner .tinvwl-buttons-group button.tinvwl_button_view {
+    background-color: #346A2B;
+    color: #fff;
+}
+
+.tinvwl_button_close {
+    background-color: #B2B2B2;
+}
+
+/* Ховер кнопки во всплывающем окне при добавлении/удалении товара в избранное !!! */
+.woocommerce .tinv-wishlist .tinvwl_added_to_wishlist.tinv-modal button.button::after, .tinv-modal .tinv-table .tinv-cell .tinv-modal-inner .tinvwl-buttons-group button.button::after{
+    content: '';
+    border-radius: inherit;
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.2);
+    left: 0;
+    top: 0;
+    /* transition: opacity 0.6s; */
+    opacity: 0;
+}
+
+.woocommerce .tinv-wishlist .tinvwl_added_to_wishlist.tinv-modal button.button:hover::after, .tinv-modal .tinv-table .tinv-cell .tinv-modal-inner .tinvwl-buttons-group button.button:hover::after {
+    opacity: 1;
+    cursor: pointer;
+}
+
+
+
+/* Скрыть ненужные элементы кнопок */
+.tinv-wishlist .tinvwl-buttons-group button i.ftinvwl-heart-o::before,.tinv-wishlist .tinvwl-buttons-group button i.ftinvwl-key::before,.tinv-wishlist .tinvwl-buttons-group button i.ftinvwl-times::before{
+    display: none;
+    position:relative;
+    top:3px;
+}
+
+/* Иконка добавления/удаления во всплывающем окне */
+.icon_big_heart_check{width:60px;height:60px;font-family:tinvwl-webfont !important;speak:none;font-style:normal;font-weight:400;font-variant:normal;text-transform:none;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;font-size:60px}
+.icon_big_times{display:inline-block;width:60px;height:60px;font-family:tinvwl-webfont !important;speak:none;font-style:normal;font-weight:400;font-variant:normal;text-transform:none;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;font-size:60px}
+.icon_big_times::before{content: url("../image/Wishlist/added.svg"); height: 60px;width: 60px;position:relative;}
+.icon_big_heart_check::before{content:url("../image/Wishlist/confirm.svg");position:relative}
+.icon_big_times::before, .icon_big_heart_check::before{
+    top: 0;
+    left: 0;
+}
+
+/* Шрифты столбца "В наличии" */
+td.product-stock {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19px;
+    color: #346A2B;
+}
+
+/* Шрифты заголовков таблицы */
+th.product-stock, th.product-price, th.product-name {
+    font-family: 'Raleway';
+    color: #346A2B;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+th.product-name {
+    text-align: start;
+}
+
+th.product-name span {
+    font-family: 'Raleway';
+    color: #346A2B;
+    font-size: 20px;
+}
+
+/* Отступы между ячейами таблицы */
+.tinvwl-table-manage-list {
+    border-spacing: 0;
+}
+
+/* Ширина таблицы */
+.tinv-wishlist.woocommerce.tinv-wishlist-clear {
+    width: 100%;
+}
+
+/* Ширина названия продукта в таблице */
+.wishlist_item .product-name a {
+    width: 283px;
+}
+
+/* Ширина столбца "название продукта" в таблице */
+.tinv-wishlist table td.product-name {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    max-width: 326px;
+}
+
+/* Значок крестик */
+.product-remove button .ftinvwl-times::before{content: url('../image/General/x-sign(inactive).svg') !important; cursor: pointer;}
+.product-remove button .ftinvwl-times:hover::before{content: url('../image/General/x-sign(active).svg') !important; cursor: pointer;}
+.tinv-wishlist .product-remove button {
+    background-color: transparent;
+}
+
+/* Значок "Нет в наличии */
+.out-of-stock span .ftinvwl-times::before { content: url('../image/Wishlist/x-sign(out-of-stock).svg') !important; }
+
+/* Пагинация страниц товаров в избранном */
+.tinv-lists-nav .next.page-numbers {
+    content: url('../image/Shop/paggination-arrow-next.svg');
+    padding: 7px 0;
+    width: 12px;
+    height: 40px;
+}
+
+.tinv-lists-nav .prev.page-numbers {
+    content: url('../image/Shop/paggination-arrow-prev.svg');
+    padding: 7px 0;
+    width: 12px;
+    height: 40px;
+}
+
+/* Рамки таблицы */
+.product-remove, .product-thumbnail, .product-price, .product-stock, .product-action, .product-name {
+    border-bottom: 1px solid #000;
+}
+
+/* Кнопка добавить в корзину */
+
+.wishlist_item .buy-button{
+    background: #346a2b;
+    font-family: "Amatic_SC";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    color: #FFF;
+    line-height: 40px;
+}
+
+.wishlist_item .buy-button:hover{
+    background: #15410E ;
+}
+
+.product-thumbnail-block, .tinv-wishlist .product-thumbnail  {
+    width: 150px;
+}
+
+.product-thumbnail-block a {
+    display: block;
+    width: inherit;
+    height: inherit;
+}
+
+.product-thumbnail-block a img{
+    height: 100%;
+    width: auto;
+    object-fit: contain;
+    min-width: auto;
+    min-height: auto;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.wishlist-tprice .item-actual-price, .wishlist-tprice .item-previous-price{
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    margin: 0;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+}
+
+.tinv-wishlist .blockOverlay{
+    background: url('../image/Preloaders/Interwind-1s-64px.svg') top 50% left 50% / 100px no-repeat !important;
+    position: fixed !important;
+    cursor: auto !important;
+}
+
+.cart-collaterals .cart_totals .blockOverlay{
+    opacity: 0 !important;
+}
+
+.woocommerce-message a.button{
+    font-weight: 600;
+}
+
+
+

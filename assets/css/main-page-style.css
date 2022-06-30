@@ -1,0 +1,152 @@
+.promo {
+    margin-bottom: 20px;
+}
+
+.home section:not(:first-child):not(:last-child){
+    margin-bottom: 70px;
+}
+
+.main-categories-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    overflow: hidden;
+    overflow: visible;
+}
+
+.card {
+    display: inline-block;
+     width: 23%;
+    height: auto;
+    margin: 0;
+    transition: transform .2s;
+}
+
+.card:nth-child(-n+4){
+    margin-bottom: 10px;
+}
+
+.card:nth-child(4n) {
+    margin-right: 0;
+}
+
+.card:hover{
+    transform: scale(1.15);
+}
+
+.card-bg {
+    width: 100%;
+    height: 19vw;
+}
+
+.card-title-text {
+    font-family: "Amatic_SC";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    color: #000;
+    text-align: center;
+    margin: 0;
+    width: 100%;
+}
+
+.card-green-text {
+    color: #346a2b;
+    margin-right: 5px;
+    margin-left: 5px;
+    font-weight: 700;
+}
+
+.advantages-cards {
+   
+    max-width: 1400px;
+    width: 100%;
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+.advantages-card {
+    
+    width:20%;
+    height:280px;
+    transition: transform .2s;
+}
+
+.advantages-card:hover{
+    transform: scale(1.1);
+}
+
+.main-section-title {
+    margin: 0;
+    margin-bottom: 40px;
+    text-align: center;
+    font-family: "Amatic_SC";
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.loyalty-programm-info {
+    margin-bottom: 55px;
+    text-align: center;
+    font-family: "Raleway";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.loyalty-programm-cards {
+    margin: 0 auto;
+    margin-bottom: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card-block {
+    width: 330px;
+}
+
+.loyalty-programm-card-first {
+    margin: 0 auto;
+    margin-bottom:15px;
+    width: 237px;
+    height: 162px;
+}
+
+.card-text {
+    margin:0 auto;
+    width: 330px;
+    text-align: center;
+    font-family: "Raleway";
+    font-size: 18px;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.attention-info {
+    margin: 0 auto;
+    width: 780px;
+    height: 30px;
+    width: 100%;
+    text-align: center;
+}
+
+.attention-message {
+    font-family: "Raleway";
+    font-size: 18px;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.attention-message:before{
+    content: '';
+    display: inline-block;
+    background: url("../image/Main/attention-sign.svg");background-size:cover;
+    width: 33px;
+    height: 30px;
+    margin-right: 20px;
+    vertical-align: middle;
+}
+

@@ -1,0 +1,196 @@
+.private-area_head {
+    display: inline-block;
+    margin-right: 50px;
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-family: 'Raleway';
+    font-weight: 600;
+    font-size: 36px;
+    font-style: normal;
+    
+}
+
+.private-area_pages {
+    display: flex;
+    margin-top: 35px;
+}
+
+.profile-nav {
+    width: 250px;
+    padding-bottom: 47px;
+}
+
+.navigation-tab{
+    border-spacing: 0;
+    width: inherit;
+    border-collapse: collapse;
+}
+
+.navigation-tab tbody tr:not(:last-child) {
+    border-bottom: 1px solid #9F9D9D;
+    transition: 0.3s linear;
+}
+
+.navigation-tab tbody tr:not(:last-child):hover{
+    border-bottom: 1px solid #000;
+}
+
+.navigation-tab tbody tr td {
+    padding-left: 5px;
+}
+
+.active-profile-page {
+    border-bottom: 1px solid #000 !important;
+    pointer-events: none;
+    cursor: default;
+}
+
+.profile-nav-pages {
+    padding: 10px 0 8px;
+    width: 250px;
+}
+
+.profile-nav-pages:hover:not(:last-child) {
+   border-bottom: 1px solid #000;
+}
+
+
+.profile-nav-pages_text {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: #000;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+}
+
+#my_account_main_link::before, #my_account_my_address_link::before, #my_account_wishlist_link::before, #my_account_history_link::before, #my_account_bonus_link::before, #my_account_log_out_link::before {
+    margin-right: 15px;
+    display: inline-block;
+    content: '';
+    vertical-align: middle;
+}
+
+#my_account_main_link::before{
+    width: 20px;
+    height: 20px;
+    background: url('../image/My account/Navigation/private-area-icon(p_area).svg') no-repeat;
+    background-size: contain;
+}
+
+#my_account_my_address_link::before{
+    width: 20px;
+    height: 20px;
+    background: url('../image/My account/Navigation/map-icon(p_area).svg') no-repeat;
+    background-size: contain;
+}
+
+#my_account_wishlist_link::before{
+    width: 22px;
+    height: 21px;
+    background: url('../image/My account/Navigation/heart-icon(p_area).svg') no-repeat;
+    background-size: contain;
+}
+
+#my_account_history_link::before{
+    width: 20px;
+    height: 20px;
+    background: url('../image/My account/Navigation/history-icon(p_area).svg') no-repeat;
+    background-size: contain;
+}
+
+#my_account_bonus_link::before{
+    width: 22px;
+    height: 23px;
+    background: url('../image/My account/Navigation/discount-icon(p_area).svg') no-repeat;
+    background-size: contain;
+}
+
+#my_account_log_out_link::before{
+    width: 20px;
+    height: 20px;
+    background: url('../image/My account/Navigation/log_out-icon(p_area).svg') no-repeat;
+    background-size: contain;
+}
+
+
+.private-area_right-side {
+    width:100%;
+    margin-left: 35px;
+}
+
+
+.private-area_name-surname {
+    max-width: 850px;
+    display: flex;
+    justify-content: space-between;
+}
+.private-area_label-for-input {
+    margin: 0;
+    width: 380px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.private-area_inputs{
+    width: 380px;
+    height: 45px;
+    margin-top: 10px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius:5px;
+    box-sizing: border-box;
+    padding: 0 10px;
+    outline: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+
+}
+
+.private-area_email-phone {
+    margin-top: 20px;
+    max-width: 850px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.private-area_change-password_button {
+    margin-top: 45px;
+    cursor: pointer;
+    width: 180px;
+    height: 45px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius:5px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.private-area_change-password_button:hover {
+    background: #E9E9E9;
+}
+
+.private-area_save-changes {
+    display: block;
+    margin-top: 100px;
+    margin-bottom: 51px;
+    width: 150px;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.private-area_save-changes:hover {
+    background: #15410E;
+}
+
+.private-area_right-side .woocommerce-error, .private-area_right-side .woocommerce-message {
+    display: inline-block;
+}
+
+

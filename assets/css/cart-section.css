@@ -1,0 +1,216 @@
+.cart-page-container{
+    position: relative;
+}
+
+.cart-page-container .woocommerce-cart-form table{
+   width: 100%;
+}
+
+/*border for cart table*/
+.product-quantity, .product-subtotal, .product-quantity, .product-subtotal, .product-price, .product-name, .product-thumbnail, .product-remove {
+   border-bottom: 1px solid #000;
+}
+
+/*header "ВАШ ЗАКАЗ"*/
+.cart-section-header {
+   width: 172px;
+   margin: 0 auto;
+   margin-bottom: 30px;
+   font-family: "Raleway";
+   font-style: normal;
+   font-weight: 600;
+   font-size: 26px;
+   color: #000;
+}
+
+/*cart table row w all headers*/
+.cart-theaders{
+   height: 30px;
+   vertical-align: top;
+}
+
+/*every header in cart table*/
+.cart thead .cart-theaders th{
+   font-family: "Raleway";
+   font-style: normal;
+   font-weight: 600;
+   font-size: 20px;
+   color: #346a2b;
+}
+
+/*remove product*/
+.product-remove-block{
+   padding: 0 20px;
+   width: 60px;
+}
+
+.remove-item-icon{
+   vertical-align: middle;
+   display: inline-block;
+   width: 20px;
+   height: 20px;
+   background: url("../image/General/x-sign(inactive).svg") no-repeat center center;
+   background-size: cover;
+}
+
+.remove-item-icon:hover{
+   background: url("../image/General/x-sign(active).svg") no-repeat center center;
+   background-size: cover;
+}
+
+/*product thumb*/
+.product-thumbnail-block, .tinv-wishlist .product-thumbnail  {
+   width: 150px;
+}
+
+.product-thumbnail-block a {
+   display: block;
+   width: inherit;
+   height: inherit;
+}
+
+.product-thumbnail-block a img{
+   height: 100%;
+   width: auto;
+   object-fit: contain;
+   min-width: auto;
+   min-height: auto;
+   position: relative;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+
+/*product name*/
+.cart-tproduct-name {
+   max-width: 500px;
+   font-size: 18px;
+   color: #000;
+}
+
+
+/*product price*/
+.cart-tprice .item-actual-price, .cart-tprice .item-previous-price{
+   font-family: "Raleway";
+   font-style: normal;
+   font-weight: 400;
+   font-size: 20px;
+   margin: 0;
+   text-align: center;
+   display: inline-block;
+   width: 100%;
+}
+
+.cart-tprice{
+   font-size: 20px;
+}
+
+/*coupon selector*/
+.coupon-section{
+   margin-top: 30px;
+}
+
+.coupon-code-input {
+   width: 190px;
+   height: 40px;
+   font-weight: 500;
+   font-size: 18px;
+   padding: 7px;
+   border: 1px solid #000;
+   border-radius: 6px;
+   margin-right: 6px;
+}
+
+.coupon-submit-btn{
+   background: #346A2B;
+   height: 40px;
+   font-size: 18px;
+   padding: 0 14px;
+   border-radius: 6px;
+   line-height: 19px;
+   color: #fff;
+   cursor: pointer;
+}
+
+.coupon-submit-btn:hover{
+   background-color: #15410E;
+}
+
+/*preloader*/
+.cart-page-container .blockOverlay{
+   background: url('../image/Preloaders/Interwind-1s-64px.svg') top 50% left 50% / 100px no-repeat !important;
+   position: fixed !important;
+   cursor: auto !important;
+}
+
+.cart-collaterals .cart_totals .blockOverlay{
+   opacity: 0 !important;
+}
+
+/*class for aligning to center in each column*/
+.table-cell-middle {
+   text-align: center !important;
+}
+
+
+/*cart item row height*/
+.cart tbody tr.cart_item{
+   height: 100px;
+}
+
+/*cart totals*/
+.cart-totals-table{
+   width: 400px;
+   margin-left: auto;
+   background-color: #fff;
+   padding: 20px 30px;
+   border: 1px solid #000;
+   border-radius: 10px;
+   position: relative;
+   top: -40px;
+}
+
+.cart-totals-table tbody tr{
+   vertical-align: top;
+   height: 32px;
+   font-size: 20px;
+   font-weight: 400;
+}
+
+.cart-totals-table tbody th{
+   font-weight: 400;
+}
+
+.order-total-row{
+   vertical-align: bottom !important;
+   height: 37px !important;
+}
+
+.order-total-row td, .order-total-row th {
+   border-top: 1px solid #BCBCBC;
+}
+
+.order-total-row th, .order-total-row td strong{
+   font-weight: 600 !important;
+}
+
+.cart-totals-table tbody tr td {
+   text-align: right !important;
+}
+
+/*go out from cart btns*/
+.cart-out-buttons{
+   display: flex;
+   justify-content: space-between;
+}
+
+/*settings for notice message*/
+.cart-page-container div.woocommerce-notices-wrapper{
+   position: absolute;
+    top: 780px;
+    left: 0;
+}
+
+
+
+

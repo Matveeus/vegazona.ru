@@ -1,0 +1,160 @@
+.shop-page-container aside.widget-area {
+    width: 255px;
+    margin-right: 19px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    padding: 23px 10px 14px 10px;
+    flex-shrink: 0;
+    height: fit-content;
+}
+
+.woof_container_pa_additional_atr .woof_container_inner .woof_block_html_items, .woof_container_pa_manufacturer .woof_container_inner .woof_block_html_items {
+    padding-left: 7px;
+}
+
+.woof_childs_list{
+    margin: 15px 0 0 0 !important;
+    padding-left: 7px;
+}
+
+.woof_checkbox_label{
+    margin-left: 0;
+}
+
+.woof_list li{
+    margin: 0 !important;
+}
+
+.woof_list .woof_childs_list_li:not(:last-child){
+    margin-bottom: 10px !important;
+}
+
+.woof_container_inner h4{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    color: #000000;
+    margin: 0 0 15px 13px;
+}
+
+.woof_container{
+    margin-top: 20px;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.woof_checkbox_sales_container{
+    margin-top: 0;
+}
+
+.woof_checkbox_sales_container .woof_container_inner{
+    margin-left: 7px;
+}
+
+.filter-parent-category{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1;
+    color: #346A2B;
+    cursor: pointer;
+}
+
+.woof .widget_price_filter .ui-slider .ui-slider-handle {
+    background-color: #346A2B;
+    top: 0;
+}
+
+.woof .widget_price_filter .ui-slider .ui-slider-range {
+    background-color: #346A2B;
+}
+
+.woof_price_search_container .price_slider_amount .price_label {
+    font-size: 16px;
+    font-style: normal;
+
+}
+
+.unselectable {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none;   /* Chrome/Safari/Opera */
+    -khtml-user-select: none;    /* Konqueror */
+    -moz-user-select: none;      /* Firefox */
+    -ms-user-select: none;       /* Internet Explorer/Edge */
+    user-select: none;           /* Non-prefixed version, currently
+                                  not supported by any browser */
+}
+
+.woof_submit_search_form_container{
+    margin: 15px 0 0;
+}
+
+.woof_checkbox_label_selected{
+    font-weight: normal;
+}
+
+.woof_submit_search_form_container .woof_submit_search_form{
+    width: 100px;
+    height: 35px;
+    border-radius: 5px;
+    float: left;
+    background-color: #ffc530;
+    cursor: pointer;
+    color: #000;
+}
+
+.woof_submit_search_form_container .woof_reset_search_form{
+    width: 100px;
+    height: 35px;
+    border-radius: 5px;
+    float: right;
+    background-color: #346A2B;
+    cursor: pointer;
+    color: #fff;
+}
+
+.woof_submit_search_form_container .woof_submit_search_form:hover{
+    background-color: #e1a200;
+}
+
+.woof_submit_search_form_container .woof_reset_search_form:hover {
+    background-color: #15410E;
+}
+
+#woof_svg_load_container {
+    left: 47%;
+    top: 43%;
+    width: 120px;
+    height: 120px;
+    opacity: .8;
+}
+
+div.plainoverlay{
+    opacity: 0.4 !important;
+}
+
+.on-sale-filter__label:after{
+    vertical-align: top;
+    margin-left: 3px;
+    content: '';
+    display: inline-block;
+    width: 19px;
+    height: 19px;
+    background: url(../image/Shop/filter-sale.svg) no-repeat;
+    background-size: contain;
+}
+
+.product-filter-open-button {
+    display: none;
+    background: #FFC530;
+    width: 95px;
+    border-radius: 4px;
+    height: 23px;
+    font-size: 16px;
+    color: #000;
+    line-height: 1.1;
+}
+
+.shop-page-container aside.widget-area.active-filter {
+    left: 4%;
+}

@@ -1,0 +1,8 @@
+@media(max-width:379px){
+    .delivery-option-description,.delivery-time,.delivery-more-info{
+        font-size:15px;
+    }
+   .delivery-options-header,.delivery-option-title{
+       font-size:18px;
+   }
+}

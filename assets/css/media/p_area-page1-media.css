@@ -1,0 +1,39 @@
+@media(max-width:1160px){
+
+.private-area_name-surname {
+    max-width: 750px;
+}
+.private-area_label-for-input {
+    width: 320px;
+}
+
+.private-area_inputs{
+    width: 320px;
+}
+
+.private-area_email-phone {
+    max-width: 750px;
+}
+
+
+}
+
+@media(max-width:1024px){
+.private-area_head{
+     font-size:30px;   
+}
+.private-area_pages{
+    margin-top:0;
+}
+.private-area_name-surname {
+    flex-direction: column;
+}
+
+
+.private-area_email-phone {
+    flex-direction: column;
+    margin-top:0;
+}
+
+
+}

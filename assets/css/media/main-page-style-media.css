@@ -1,0 +1,148 @@
+@media (max-width:1500px){
+    .main-section-title{
+        font-size:55px;
+    }
+   .advantages-card{
+          height: 18.1vw;
+   }
+   
+}
+
+
+
+@media (max-width:1250px){
+    .main-section-title{
+        font-size:45px;
+    }
+   
+   .card-text{
+       width:257px;
+       font-size:16px;
+   }
+   .card-title-text{
+       font-size: 31px;
+   }
+}
+
+
+@media (max-width:1024px){
+    .main-section-title{
+        margin-bottom:20px;
+    }
+    .loyalty-programm-info{
+        margin:0 auto;
+            margin-bottom: 45px;
+        width:75%;
+        font-size:15px;
+    }
+   
+   .card-text{
+       width:196px;
+       font-size:15px;
+   }
+   .card-title-text{
+       font-size:25px;
+   }
+   .loyalty-programm-card-first{
+       width:186px;
+       height:127px;
+   }
+   
+   .loyalty-programm-cards{
+       margin-bottom:40px;
+   }
+   
+   .attention-message{
+        font-size:15px;
+   }
+   .attention-message:before{
+       width:24px;
+       height:22px;
+   }
+}
+
+@media (max-width:850px){
+    .card-title-text {
+    font-size: 23px;
+}
+   .advantages-card {
+       width:165px;
+       height:165px;
+   }
+   .main-categories-cards{
+       justify-content: space-around;
+   }
+   
+}
+
+@media (max-width:765px){
+    .card-bg{
+       height: 25vw;
+   }
+   .card{
+       width: 30%;
+    max-width: 193px;
+   }
+    .card-block{
+        width:230px;
+    }
+    .loyalty-programm-cards{
+       flex-wrap:wrap;
+   }
+   .loyalty-programm-card-first{
+       width:200px;
+       height:137px;
+   }
+   .card-block:not(:last-child){
+       margin-bottom:20px;
+   }
+    .advantages-cards{
+        max-width:530px;
+   
+        width:75%;
+        margin:0 auto;
+        justify-content: space-around;
+    flex-wrap: wrap;
+    }
+   .advantages-card {
+    width: 43%;
+    height: 29.7vw;
+       margin-bottom:25px;
+   }
+   .home section:not(:first-child):not(:last-child){
+       margin-bottom:30px;
+   }
+}
+@media (max-width:650px){
+    .card-title-text{
+        font-size:21px;
+    }
+    
+}
+@media (max-width:550px){
+    .advantages-cards{
+        width:100%;
+    }
+    .advantages-card{
+        width: 42%;
+    height: 38.6vw;
+    }
+    .card{
+    width: 50%;
+    min-width:none;
+    }
+    .card-bg {
+    height: 38vw;
+    }
+    .card-title-text {
+    font-size: 25px;
+}
+}
+@media (max-width:450px){
+    .advantages-cards{
+        width:100%;
+    }
+    .main-section-title{
+        font-size:41px;
+    }
+}

@@ -1,0 +1,219 @@
+
+#yith-quick-view-modal .yith-wcqv-main.product-modal-window-main{
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    padding: 24px 22px 24px 57px;
+    border-radius: 15px;
+    min-height: inherit;
+}
+
+/* плавающее модальное окно с min-height, но без max-height */
+#yith-quick-view-modal .yith-wcqv-wrapper {
+    min-height: 600px;
+    height: auto !important;
+}
+
+div.product h1.product_title {
+    margin: 0;
+    margin-bottom: 30px;
+    text-align: center;
+    display: block;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    color: #000;
+}
+
+.modal-product-price{
+    display: flex;
+    align-items: center;
+    margin-bottom: 13px;
+}
+
+
+.green-text-modal-product {
+    color: #346A2B;
+    font-weight: 500;
+    font-family: 'Raleway';
+    font-size: 22px;
+    font-style: normal;
+}
+
+.modal-product-info {
+    overflow: hidden;
+    margin-top: 0;
+    text-align: start;
+    width: inherit;
+    margin-bottom: 15px;
+    display: block;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    color: #000;
+}
+
+.modal-product-price p.item-actual-price, .modal-product-price p.item-previous-price {
+    margin-bottom: 0;
+    font-size: 22px;
+    width: 19%;
+}
+
+.modal-product-price div.item-actual-price{
+    font-size: 22px;
+    width: 19%;
+    text-align: center;
+}
+
+#yith-quick-view-close {
+    display: block;
+    background: url('../image/General/x-sign(inactive).svg') no-repeat;
+    background-size: cover;
+    border: none;
+    top: 15px;
+    right: 15px;
+    transition: .3s ease;
+}
+
+#yith-quick-view-close:hover {
+    background: url('../image/General/x-sign(active).svg') no-repeat;
+    background-size: cover;
+}
+
+.modal-product-price div.item-actual-price {
+    margin-bottom: 0;
+}
+
+#yith-quick-view-content div.product .summary.entry-summary{
+    float: right;
+}
+
+.summary-content form.cart {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    width: 330px;
+}
+
+.summary-content form.cart .cart-spinner-section {
+    margin: 0;
+    order: 1;
+    height: 33px;
+}
+
+.summary-content form.cart .add-to-wishlist-button {
+    position: relative;
+    order: 3;
+    top: 0;
+    left: 0;
+}
+
+.entry-summary .summary-content form.cart .add-to-wishlist-button a {
+    color: #fff;
+    display: block;
+    cursor: pointer;
+    background: #346A2B url('../image/Wishlist/heart-inactive.svg') no-repeat top 10px left 9px / 30px;
+    width: 47px;
+    height: 47px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    font-family: 'Amatic_SC';
+    font-size: 30px;
+    line-height: 52px;
+}
+
+.entry-summary .summary-content form.cart .add-to-wishlist-button a:hover{
+    background: #15410E url('../image/Wishlist/heart-inactive.svg') no-repeat top 10px left 9px / 30px;
+}
+
+.entry-summary .summary-content form.cart .add-to-wishlist-button a.tinvwl-product-in-list {
+    background: #346A2B url('../image/Wishlist/heart-active.svg') no-repeat top 10px left 9px / 30px;
+}
+
+.entry-summary .summary-content form.cart .add-to-wishlist-button a.tinvwl-product-in-list:hover {
+    background: #15410E url('../image/Wishlist/heart-active.svg') no-repeat top 10px left 9px / 30px;
+
+}
+
+.entry-summary .summary-content form.cart .add-to-wishlist-button a::before{
+    content: '';
+}
+
+
+.summary.entry-summary .summary-content form.cart .single_add_to_cart_button.button {
+    order: 2;
+    color: #fff;
+    display: block !important;
+    cursor: pointer;
+    background-color: #346A2B;
+    width: 115px;
+    height: 47px !important;
+    border: none;
+    border-radius: 4px;
+    font-family: 'Amatic_SC';
+    font-size: 28px;
+    line-height: 47px !important;
+    text-align: center;
+    margin-left: 0 !important;
+}
+
+.summary-content .quantity.buttons_added {
+    height: inherit;
+}
+
+.summary.entry-summary .summary-content form.cart .single_add_to_cart_button.button:hover {
+    background-color: #15410E;
+}
+
+.flex-control-nav.flex-control-thumbs li{
+    height: 60px;
+    overflow: hidden;
+}
+
+.flex-control-nav.flex-control-thumbs li img {
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+    min-width: auto;
+    min-height: auto;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.slides li{
+    width: auto;
+    height: 240px;
+    overflow: hidden;
+    background: #fff;
+}
+
+.flexslider .slides img{
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+    min-width: auto;
+    min-height: auto;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.flex-direction-nav a{
+    top: 39%;
+}
+
+.flexslider:hover .flex-direction-nav .flex-next{
+    right: -30px;
+}
+
+.flexslider:hover .flex-direction-nav .flex-prev{
+    left: -30px;
+}

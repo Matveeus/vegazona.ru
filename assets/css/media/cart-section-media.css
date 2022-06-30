@@ -1,0 +1,49 @@
+@media(max-width:800px){
+    .product-quantity, .product-quantity, .product-subtotal, .product-price, .product-name, .product-thumbnail, .product-remove{
+        border-bottom:none; 
+         margin-bottom: 10px;
+    }
+    .product-subtotal{
+       
+        padding-bottom: 20px;
+        border-bottom:1px solid #000;
+    }
+    .cart-tprice .item-actual-price, .cart-tprice .item-previous-price{
+        display:inline;
+    }
+    .product-remove-block{
+        padding:0;
+        width:100%
+    }
+    .table-cell-middle{
+        text-align: right !important;
+    }
+    .cart-tproduct-name{
+        font-size:20px;
+        max-width:100%;
+    }
+    .product-quantity{
+        font-size:20px;
+    }
+    .cart-spinner-section{
+        justify-content:flex-end !important;
+    }
+    .coupon-section{
+        display:flex;
+        justify-content: flex-start;
+    }
+ 
+    .cart-totals-table{
+        width:100%;
+        padding:20px;
+        margin: 20px auto;
+        top:0;
+    }
+    .order-total-row td, .order-total-row th{
+        padding-top:10px;
+    }
+    
+    table.cart tr td::before{
+        display:none;
+    }
+}

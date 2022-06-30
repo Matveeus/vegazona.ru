@@ -1,0 +1,165 @@
+/*green text*/
+.green-text-about-us {
+    color: #346A2B;
+    font-weight: 700;
+    font-family: 'Raleway';
+    font-style: normal;
+}
+
+
+
+/*block with company info*/
+.about-us-info {
+    color: #000;
+    margin: 0 auto;
+    margin-bottom: 35px;
+    max-width: 962px;
+    font-family: 'Raleway';
+    font-weight: 500;
+    font-size: 20px;
+    font-style: normal;
+    text-align: center;
+}
+
+.about-us-contacts{
+    margin: 0 auto;
+    max-width: 820px;
+    font-size: 20px;
+}
+
+.about-us-contact-container{
+    display:block;
+}
+
+/*phones block*/
+.about-us-contacts-phones,.about-us-contacts-social,.about-us-contacts-emails {
+    margin:0 auto;
+    padding:0 70px;
+    display:flex;
+    justify-content:space-between;
+    color: #000;
+    margin-bottom: 20px;
+    width: 100%;
+    height: 40px;
+    border-bottom: solid 1px #000;
+}
+.about-us-phones-block{
+  display: flex;
+    width: 65%;
+    justify-content: space-between;
+}
+.about-us-phone-number {
+    
+    font-family: 'Raleway';
+    font-weight: 500;
+    font-style: normal;
+    text-decoration: none;
+    color: #000;
+}
+/*social-block*/
+.inst-block,.facebook-block{
+    display:flex;
+    justify-content:space-between;
+    width:37%;
+}
+
+.about-us-instagram, .about-us-facebook {
+    
+    font-family: 'Raleway';
+    font-weight: 500;
+    font-style: normal;
+    text-decoration: none;
+    color: #000;
+}
+/*emails-block*/
+
+.block-for-and-links{
+    width: 82%;
+    display: flex;
+    justify-content: space-between;
+}
+.about-us-contacts-emails{
+    height:80px;
+}
+
+.about-us-email-for {
+    
+    
+    font-family: 'Raleway';
+    font-weight: 500;
+    font-style: normal;
+    text-decoration: none;
+    color: #000000;
+    display: flex;
+    color: #346A2B;
+    
+}
+
+.about-us-email-for:not(:last-child) {
+     margin-bottom: 15px;
+}
+
+.about-us-email-for::before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+    border-radius: 50%;
+    background-color: #346A2B;
+    position: relative;
+    top: 6px;
+}
+
+
+.about-us-email-link{
+    display: block;
+    height: 30px;
+    font-family: 'Raleway';
+    font-weight: 500;
+    font-style: normal;
+    text-decoration-skip-ink: none;
+    color: #000000;   
+}
+
+.about-us-email-link:not(:last-child) {
+    margin-bottom: 8px;
+}
+
+.about-us-email-links {
+    height: 100%;
+}
+
+/*address and work hours*/
+.about-us-contacts-office {
+     margin:0 auto;
+     padding:0 70px;
+    display:flex;
+    justify-content:space-between;
+    color: #000;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+
+.about-us-address {
+    margin-bottom: 20px;
+    font-family: 'Raleway';
+    font-weight: 500;
+    font-style: normal;
+    text-decoration: none;
+    color: #000000;
+
+}
+
+.about-us-work-hours {
+    font-family: 'Raleway';
+    font-weight: 500;
+    font-style: normal;
+    text-decoration: none;
+    color:  #346A2B;
+}
+
+.address-map{
+    display:flex;
+    justify-content:space-around;
+}
